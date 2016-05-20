@@ -1,0 +1,29 @@
+{
+  "name": "express_website",
+  "version": "1.0.0",
+  "description": "A simple Express website",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Express",
+    "Node",
+    "JavaScript"
+  ],
+  "author": "Tony Brown",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "serve-static": "~1.10.2",
+    "jade": "^1.11.0",
+    "nib": "^1.1.0",
+    "nodemailer": "^2.4.1",
+    "stylus": "^0.54.5"
+  },
+  "devDependencies": {
+    "eslint": "^2.10.2"
+  }
+}

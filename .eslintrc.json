@@ -1,0 +1,16 @@
+{
+	"env": {
+		"node": true,
+		"commonjs": true
+	},
+	"rules": {
+		"linebreak-style": [
+			"error",
+			"unix"
+		],
+		"semi": [
+			1,
+			"always"
+		]
+	}
+}
